@@ -13,7 +13,7 @@ import streamlit as st
 df = yf.download("TSLA")
 
 st.header('''
-            TESLA'S STOCK
+            TESLA STOCK
           ''')
 st.write("Tesla adj close: ", df['Adj Close'])
 

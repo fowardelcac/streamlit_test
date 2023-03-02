@@ -6,7 +6,6 @@ Created on Thu Mar  2 17:37:00 2023
 """
 
 import pandas as pd
-import matplotlib.pyplot as plt
 import yfinance as yf
 import streamlit as st
 

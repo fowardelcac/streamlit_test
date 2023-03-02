@@ -14,6 +14,7 @@ df = yf.download("TSLA")
 st.header('''
             TESLA STOCK
           ''')
+st.write("AGUS SI ESTAS LEYENDO ESTO, SOS PUTAZO ABDEL NASSER NASSER")
 st.write("Tesla adj close: ", df['Adj Close'])
 
 st.line_chart(df['Adj Close'])
